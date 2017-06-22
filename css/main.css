@@ -1,8 +1,49 @@
+/*estilos para navegador*/
 
 .nav-wrapper{
+    background-color: #1a0b04;  
+   
+}
+.nav-wrapper a:hover{
+    background-color: #F5CA9D;
+}
+.logo{
+    font-family: 'Pacifico', cursive; 
+    align-content: center;
+}
+.espacio{
+    padding-left: 30%;
+}
+/*estilos navegador alterno*/
+
+.side-nav  .presentar{
+    display:inline-flex;
+}
+.side-nav{
+    background-color: #1a0b04;
+}
+.colorHam{
+    color:darkorange;
+}
+.side-nav li a:hover{
+    background-color: #F5CA9D;
+}
+.userView{
+    background-image: url("/assets/img/codigo.png");
+}
+/*Boton descargar cv*/
+.boton{
+    background-color: dimgray;
+}
+.btn-large{
+    background-color: coral;
+}
+.btn-large a:hover{
+    color:gray;
+}
+.waves-effect{
     background-color: gray;
 }
-
 /*.prueba{
     width: 100%;
     height: 600px;
@@ -11,20 +52,111 @@
     background-size: cover;
     background-position: center;
 }*/
-.side-nav  .presentar{
-    display:inline-flex;
-}
+/*estilos para el footer*/
 .page-footer{
     background-color: gray;
-    
 }
 .presentarFooter{
     display: inline;
     height: 70px;
 }
+/*codigo para el parallax*/
 .parallax-container {
-      height: 600px;
+      height: 700px;
     }
 .parallax{
     opacity: .9;
 }
+
+/*estilos de la seccion de about me*/
+.fotoShaz{
+    border-radius: 50%;  
+}
+.letra2{
+    font-family: 'Old Standard TT', serif;
+    font-size: 2em;
+    text-align: justify;
+    color:white;
+}
+#aboutMe{
+    background-image:url("/assets/img/codigo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* estilos para los iconos de servicios*/
+.cuadroNegro{
+    background-color: black;
+    width: 90%;
+    height: 60%;
+    margin-top: 10%;
+    margin-left: 5%;
+    position: absolute;
+}
+.cuadroBlanco{
+    position:absolute;
+    background-color: white;
+    width: 20%;
+    height: 70%;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+.textoHtml{
+    padding-top: 120%;
+}
+.logoHtml{
+    position:absolute;
+    margin-top: 35%;
+    margin-left: 30%;
+}
+.logoJS{
+    position:absolute;
+    margin-top: 35%;
+    margin-left: 30%;
+}
+.cuadroNegro2{
+    background-color: black;
+    width: 90%;
+    height: 60%;
+    margin-top: 10%;
+    margin-left: 5%;
+    position: absolute;
+}
+.cuadroBlanco2{
+    position:absolute;
+    background-color: white;
+    width: 20%;
+    height: 70%;
+    margin-top: 1%;
+    margin-left: 40%;
+}
+.logoCss{
+    position:absolute;
+    margin-top: 35%;
+    margin-left: 30%;
+}
+.cuadroNegro3{
+    background-color: black;
+    width: 90%;
+    height: 60%;
+    margin-top: 10%;
+    margin-left: 5%;
+    position: absolute;
+}
+.cuadroBlanco3{
+    position:absolute;
+    background-color: white;
+    width: 20%;
+    height: 70%;
+    margin-top: 5%;
+    margin-left: 76%;
+}
+.fondoSkills{
+    background-image: url("/assets/img/fototablas.jpg");
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
