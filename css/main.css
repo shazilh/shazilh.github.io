@@ -28,9 +28,21 @@
 .side-nav li a:hover{
     background-color: #F5CA9D;
 }
+.nav-wrapper .side-nav li a{
+    color:white;
+}
 .userView{
     background-image: url("/assets/img/codigo.png");
 }
+.regresarMenu a{
+    color:white;
+    font-size: 2em;
+}
+.regresarMenu2 a{
+    color:black;
+    font-size: 2em;
+}
+
 
 /*.prueba{
     width: 100%;
@@ -42,7 +54,10 @@
 }*/
 /*estilos para el footer*/
 .page-footer{
-    background-color: gray;
+    background-color: #770505;
+}
+.footer-copyright{
+    background-color: #1a0b04;
 }
 .presentarFooter{
     display: inline;
