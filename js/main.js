@@ -1,6 +1,11 @@
 $( document ).ready(function(){})
 
-$(".button-collapse").sideNav();
+$('.button-collapse').sideNav({
+      closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      draggable: true, // Choose whether you can drag to open on touch screens,
+    }
+  );
+    
  
 $('.parallax').parallax();
 
@@ -40,3 +45,12 @@ $('a[href*="#"]')
       }
     }
   });
+var cargarProgressBar = function() {
+  var scroll = document.body.scrollTop;
+  if (scroll >= 600) {
+    $('.progress').show('slow');
+  } else if (scroll < 599) {
+    $('.progress').hide();
+  }
+};
+

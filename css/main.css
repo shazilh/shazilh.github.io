@@ -1,45 +1,110 @@
 /*estilos para navegador*/
 
-.nav-wrapper{
-     background-color: #1a0b04;  
-       
+* {
+    margin: 0;
+    padding: 0;
 }
-.nav-wrapper a:hover{
-    background-color: #F5CA9D;
-}
-.logo{
-    font-family: 'Pacifico', cursive; 
-    align-content: center;
-}
-.espacio{
-    padding-left: 30%;
-}
-/*estilos navegador alterno*/
 
-.side-nav  .presentar{
-    display:inline-flex;
-}
-.side-nav{
+.nav-wrapper {
     background-color: #1a0b04;
 }
-.colorHam{
-    color:darkorange;
+
+.navbar {
+    width: 100%;
 }
-.side-nav li a:hover{
+
+.button-collapse {
+    position: fixed;
+}
+
+.hide-on-med-and-down {
+    position: fixed;
+    width: 100%;
+    background-color: #1a0b04;
+}
+
+.nav-wrapper a:hover {
     background-color: #F5CA9D;
 }
-.nav-wrapper .side-nav li a{
-    color:white;
+
+.logo {
+    font-family: 'Pacifico', cursive;
+    align-content: center;
 }
-.userView{
-    background-image: url("/assets/img/codigo.png");
+
+.logo-pequeno {
+    width: 200px;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 50px;
 }
-.regresarMenu a{
-    color:white;
+
+.logo-pequeno-side {
+    width: 100px;
+    height: 70px;
+    margin-left: 70px;
+}
+
+.logo-central {
+    margin-top: 200px;
+    margin-left: 500px;
+    position: absolute;
+    width: 40%;
+    height: 300px;
+}
+
+.espacio {
+    margin-left: 10%;
+}
+
+.type {
+    position: absolute;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-left: 200px;
+}
+
+.hide-on-med-and-down a {
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+/*estilos navegador alterno*/
+
+.side-nav .presentar {
+    display: inline-flex;
+}
+
+.side-nav {
+    background-color: #1a0b04;
+}
+
+.colorHam {
+    color: darkorange;
+}
+
+.side-nav li a:hover {
+    background-color: #F5CA9D;
+}
+
+.nav-wrapper .side-nav li a {
+    color: white;
+}
+
+.userView {
+    background-color: #1a0b04;
+}
+
+.regresarMenu a {
+    color: white;
     font-size: 2em;
 }
-.regresarMenu2 a{
-    color:black;
+
+.regresarMenu2 a {
+    color: black;
     font-size: 2em;
 }
 
@@ -52,111 +117,208 @@
     background-size: cover;
     background-position: center;
 }*/
+
+
 /*estilos para el footer*/
-.page-footer{
-    background-color: #770505;
-}
-.footer-copyright{
+
+.page-footer {
     background-color: #1a0b04;
 }
-.presentarFooter{
+
+.footer-copyright {
+    background-color: #1a0b04;
+}
+
+.presentarFooter {
     display: inline;
     height: 70px;
 }
+
+
 /*codigo para el parallax*/
+
 .parallax-container {
-      height: 700px;
-    }
-.parallax{
+    height: 700px;
+}
+
+.parallax {
     opacity: .9;
 }
 
+
 /*estilos de la seccion de about me*/
-.letra2{
+
+.letra2 {
     font-family: 'Old Standard TT', serif;
     font-size: 2em;
     text-align: justify;
-    color:white;
-}
-#aboutMe{
-    background-image:url("/assets/img/codigo.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-/* estilos para los iconos de servicios*/
-.cuadroNegro{
-    background-color: black;
-    width: 90%;
-    height: 60%;
-    margin-top: 10%;
-    margin-left: 5%;
-    position: absolute;
-}
-.cuadroBlanco{
-    position:absolute;
-    background-color: white;
-    width: 20%;
-    height: 70%;
-    margin-top: 5%;
-    margin-left: 2%;
-}
-.textoHtml{
-    padding-top: 120%;
-}
-.logoHtml{
-    position:absolute;
-    margin-top: 35%;
-    margin-left: 30%;
-}
-.logoJS{
-    position:absolute;
-    margin-top: 35%;
-    margin-left: 30%;
-}
-.cuadroNegro2{
-    background-color: black;
-    width: 90%;
-    height: 60%;
-    margin-top: 10%;
-    margin-left: 5%;
-    position: absolute;
-}
-.cuadroBlanco2{
-    position:absolute;
-    background-color: white;
-    width: 20%;
-    height: 70%;
-    margin-top: 1%;
-    margin-left: 40%;
-}
-.logoCss{
-    position:absolute;
-    margin-top: 35%;
-    margin-left: 30%;
-}
-.cuadroNegro3{
-    background-color: black;
-    width: 90%;
-    height: 60%;
-    margin-top: 10%;
-    margin-left: 5%;
-    position: absolute;
-}
-.cuadroBlanco3{
-    position:absolute;
-    background-color: white;
-    width: 20%;
-    height: 70%;
-    margin-top: 5%;
-    margin-left: 76%;
-}
-.fondoSkills{
-    background-image: url("/assets/img/gadgets.jpg");
-    width: 100%;
-    height: 800px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    color: white;
 }
 
+#aboutMe {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 750px;
+}
+
+.tipo-letra {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 35px;
+    padding-top: 30px;
+}
+
+.mg-top {
+    margin-top: 130px;
+}
+
+.hobbie-icon {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+}
+
+.foto {
+    border-radius: 60%;
+}
+
+
+/* estilos para los iconos de servicios*/
+
+#habilidades {
+    width: 100%;
+    height: 700px;
+    padding-bottom: 100px;
+    background-color: #1a0b04;
+}
+
+.progress {
+    height: 10px;
+    border-radius: 5px;
+    background-color: #f0eaf7;
+}
+
+.determinate {
+    background-color: #ffc700!important;
+}
+
+.porciento {
+    font-size: 1.25em;
+    color: #f5f5f5;
+}
+
+.name {
+    padding-bottom: 16px;
+}
+
+.habilidad-progreso {
+    padding: 0 5em 2em 5em !important;
+}
+
+
+/*codigo para media queries*/
+
+@media screen and (min-width: 320px) and (max-width: 732px) {
+    .logo-central {
+        margin-top: 200px;
+        margin-left: 70px;
+        position: absolute;
+        width: 50%;
+        height: 500px;
+    }
+    .type {
+        position: absolute;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        margin-left: 30px;
+    }
+    .subtitulo {
+        font-size: 30px;
+    }
+    .tipo-letra {
+        font-size: 15px;
+        padding-top: 10px;
+    }
+    .mg-top {
+        margin-top: 50px;
+    }
+    .hobbie-icon {
+        width: 30px;
+        height: 30px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 10px;
+    }
+    .foto {
+        width: 100px;
+        height: 100px;
+        margin-top: 50px;
+    }
+    #aboutMe {
+        width: 100%;
+        height: 500px;
+    }
+    #habilidades{
+        width: 100%;
+        height:auto;
+    }
+
+}
+
+@media screen and (min-width: 733px) and (max-width: 1209px) {
+    .logo-central {
+        margin-top: 200px;
+        margin-left: 150px;
+        position: absolute;
+        width: 50%;
+        height: 500px;
+    }
+    .type {
+        position: absolute;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        margin-left: 120px;
+    }
+    .subtitulo {
+        font-size: 30px;
+        margin-top: 200px;
+    }
+    .tipo-letra {
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    .mg-top {
+        margin-top: 50px;
+    }
+    .hobbie-icon {
+        width: 50px;
+        height: 50px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 10px;
+    }
+    .foto {
+        width: 100px;
+        height: 100px;
+        margin-top: 50px;
+    }
+    .hide-on-med-and-down a {
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .espacio {
+        margin-left: 1%!importannt;
+    }
+    #aboutMe {
+        width: 100%;
+        height: 500px;
+    }
+    #habilidades{
+        width: 100%;
+        height:auto;
+    }
+}
