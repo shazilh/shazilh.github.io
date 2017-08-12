@@ -1,10 +1,10 @@
 var typed = new Typed('.type', {
    strings:[ 
-            "'FrontEnd Developer Jr. Especialización Prototyping",
-            "Diseño y construyo landing pages/aplicaciones web y páginas corporativas.",
-            "Conoce más sobre quién soy y lo que hago'" 
+            "'Front End Developer Jr. Especialización Prototyping",
+            "Desarrollo y diseño landing pages,aplicaciones web y páginas web corporativas.",
+            "Conoce más sobre quién soy y lo que hago...'" 
         ],
-  typeSpeed: 90,
+  typeSpeed: 50,
   backDelay: 400,
-  loop:true
+  loop:false
 });

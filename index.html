@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shazil Tovar Palestino</title>
-    <link rel="stylesheet" type="text/css" href="./css/materialize.min.css" media="screen,projection">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="/css/main.css">
     <link rel="stylesheet" type="text/css" href="/css/animacion.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -16,21 +16,23 @@
     <link rel="stylesheet" type="text/css" href="css/animate.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="shortcut icon" href="assets/img/favicon.png">
-
-
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative|Lobster+Two" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alex+Brush|Clicker+Script|Mr+De+Haviland|Parisienne|Pinyon+Script|Yesteryear" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
 </head>
 
 <body>
-    <div class="navbar ">
+    <div class="navbar">
         <nav>
             <div class="nav-wrapper">
                 <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons right">menu</i></a>
-                <ul class="hide-on-med-and-down col s12 m12 l12">
+                <ul class="hide-on-med-and-down col s12 m12 l12 menu-nav">
                     <li>
                         <img src="assets/img/shazilBlanco2.png" class="logo-pequeno" />
                     </li>
-                    <li class="espacio"><a href="index.html">Inicio</a></li>
-                    <li><a href="#aboutMe">Acerca de mí</a></li>
+                    <li class="espacio"><a href="#inicio">Inicio</a></li>
+                    <li><a class="active" href="#aboutMe">Acerca de mí</a></li>
                     <li><a href="#habilidades">Servicios</a></li>
                     <li><a href="#portafolio">Portafolio</a></li>
                     <li><a href="#contactoEn">Contáctame</a></li>
@@ -50,13 +52,10 @@
                     </li>
                     <div class="presentar">
                         <li>
-                            <a href="http://www.github.com/shazilh"><img src="/assets/img/github%20(3).png"></a>
+                            <a href="http://www.github.com/shazilh" target="_blank"><img src="/assets/img/github%20(3).png"></a>
                         </li>
                         <li>
-                            <a href="http://www.linkedin.com/in/ShazilT"><img src="/assets/img/linkedin-logo%20(1).png"></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/Shazil_T"><img src="/assets/img/twitter.png"></a>
+                            <a href="http://www.linkedin.com/in/ShazilT" target="_blank"><img src="/assets/img/linkedin-logo%20(1).png "></a>
                         </li>
                     </div>
                 </ul>
@@ -75,37 +74,38 @@
                 <p class="type"></p>
             </div>
         </div>
-
     </section>
     <!--termina codigo de animacion de letras-->
 
     <!--seccion about-me-->
     <div id="aboutMe">
         <div class="row letra2">
-            <div class="col s6 l6 center">
-                <h1 class="mg-top center brown-text animated bounceInRight subtitulo ">Acerca de mí</h1>
+            <div class="col s12 m6 l6 center texto-container">
+                <h5 class="punto">.</h5>
+                <h1 class="mg-top center brown-text animated bounceInRight subtitulo">Acerca de mí</h1>
                 <p class="brown-text  tipo-letra animated zoomIn">
-                    En el sector tecnológico, crear, mediante la programación, es un arte que requiere talento, determinación, perseverancia y pasión.<br> Palabras que me han inspirado al incursionar en este mundo tan desafiante y lleno de maravillosos retos.<br> Entre mis metas, destacan las que se refieren a contribuir para resolver las diferentes y aquejantes problemáticas de mi país, México; sobre todo en el sector de la educación.<br> Mis manos codearán, esperanzas y éxitos.
+                    <span class="letra-C">C</span>rear, mediante la tecnología, <br>es un arte que requiere talento, determinación, perseverancia y pasión.<br> Al navegar por este mundo tan desafiante y lleno de retos increíbles mi principal objetivo como Front end Developer, <br>es el que se refiere a contribuir para aminorar las diferentes y aquejantes problemáticas de mi país, México; sobre todo en el sector de la educación y la brecha de género.<br> Mis manos codearán, esperanzas y éxitos.
+                    <h6 class="brown-text animated bounceInLeft subtitulo2">Pasatiempos</h6>
+                    <img class="responsive-img hobbie-icon animated flash" src="assets/img/birthday-cake.png" />
+                    <img class="responsive-img hobbie-icon animated flash" src="assets/img/code.png" />
+                    <img class="responsive-img hobbie-icon animated flash" src="assets/img/karaoke.png" />
+                    <img class="responsive-img hobbie-icon animated flash" src="assets/img/keyboard.png" />
+                    <img class="responsive-img hobbie-icon animated flash" src="assets/img/weightlifting.png" />
             </div>
-            <div class="col s6 l6 center">
-                <h1 class="brown-text animated bounceInLeft mg-top subtitulo">Mis hobbies</h1>
-                <img class="responsive-img hobbie-icon animated flash" src="assets/img/birthday-cake.png" />
-                <img class="responsive-img hobbie-icon animated flash" src="assets/img/code.png" />
-                <img class="responsive-img hobbie-icon animated flash" src="assets/img/karaoke.png" />
-                <img class="responsive-img hobbie-icon animated flash" src="assets/img/keyboard.png" />
-                <img class="responsive-img hobbie-icon animated flash" src="assets/img/weightlifting.png" />
-                <img class="responsive-img foto" src="assets/img/shazilPic.png" />
+            <div class="col s12 m6 l6 center">
+                <img class="responsive-img foto" src="assets/img/shaz.jpg" />
             </div>
         </div>
     </div>
 
     <!--seccion skills -->
-     <section id="habilidades">
+    <section id="habilidades">
         <div class="container">
-            <h1 class="mg-top center white-text animated bounceInDown subtitulo ">Habilidades</h1>
             <div class="row estadisticas">
+                <h5 class="punto-b">.</h5>
+                <h1 class="center white-text animated bounceInDown subtitulo serv ">Servicios</h1>
                 <div class="col m6 s12 habilidad-progreso">
-                    
+
                     <label for="html"><h6>HTML5</h6></label>
                     <div class="progress">
                         <div name="html" class="determinate animated fadeInLeft" style="width:75%"></div>
@@ -113,7 +113,7 @@
                     <span class="porciento">Avanzado</span>
                 </div>
                 <div class="col m6 s12 habilidad-progreso">
-                   
+
                     <label for="css"><h6>CSS3</h6></label>
                     <div class="progress">
                         <div name="css" class="determinate animated fadeInLeft" style="width:70%"></div>
@@ -121,7 +121,7 @@
                     <span class="porciento">Avanzado</span>
                 </div>
                 <div class="col m6 s12 habilidad-progreso">
-                    
+
                     <label for="js"><h6>JAVASCRIPT</h6></label>
                     <div class="progress">
                         <div name="js" class="determinate animated fadeInLeft" style="width:50%"></div>
@@ -129,7 +129,7 @@
                     <span class="porciento">Intermedio</span>
                 </div>
                 <div class="col m6 s12 habilidad-progreso">
-                    
+
                     <label for="jquery"> <h6>JQUERY</h6></label>
                     <div class="progress">
                         <div name="jquery" class="determinate animated fadeInLeft" style="width:50%"></div>
@@ -137,8 +137,8 @@
                     <span class="porciento">Intermedio</span>
                 </div>
                 <div class="col m6 s12 habilidad-progreso">
-                    
-                    
+
+
                     <label for="frameworks"><h6>MATERIALIZE/BOOTSTRAP</h6></label>
                     <div class="progress">
                         <div name="frameworks" class="determinate animated fadeInLeft" style="width:75%"></div>
@@ -146,8 +146,8 @@
                     <span class="porciento">Avanzado</span>
                 </div>
                 <div class="col m6 s12 habilidad-progreso">
-                    
-                    
+
+
                     <label for="git"><h6>GIT / GITHUB</h6></label>
                     <div class="progress">
                         <div name="git" class="determinate animated fadeInLeft" style="width:75%"></div>
@@ -162,7 +162,7 @@
                     <span class="porciento">Intermedio</span>
                 </div>
                 <div class="col m6 s12 habilidad-progreso">
-                    
+
                     <label for="jquery"> <h6>SASS</h6></label>
                     <div class="progress">
                         <div name="jquery" class="determinate animated fadeInLeft" style="width:50%"></div>
@@ -176,7 +176,8 @@
     <!--seccion portafolio-->
     <div class="section white responsive-img" id="portafolio">
         <div class="row">
-            <h2 class="header center brown-text">Mis Proyectos</h2>
+            <h5 class="punto">.</h5>
+            <h1 class="header center brown-text subtitulo">Portafolio</h1>
         </div>
         <!--codigo para primera  seccion de tarjetas-->
         <div class="container responsive-img animated rollIn">
@@ -187,7 +188,8 @@
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Restaurantes<i class="material-icons right"></i></span>
-                        <p><a href="https://shazilh.github.io/restaurantesJQueryyApis/">Ver proyecto</a></p><span><a href="https://github.com/shazilh/restaurantesJQueryyApis">Ver Repositorio</a></span>
+                        <a href="https://shazilh.github.io/restaurantesJQueryyApis/" target="_blank" class="right"><img src="assets/img/eye%20(2).png"></a>
+                        <span><a href="https://github.com/shazilh/restaurantesJQueryyApis" target="_blank" class="right"><img src="assets/img/github-logo%20(1).png"></a></span>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4 ">En este proyecto...<i class="material-icons right">close</i></span>
@@ -201,7 +203,7 @@
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Foro<i class="material-icons right"></i></span>
-                        <p><a href="https://shazilh.github.io/ForoApis/">Ver proyecto</a></p><span><a href="https://github.com/shazilh/ForoApis">Ver Repositorio</a></span>
+                        <a href="https://shazilh.github.io/ForoApis/" target="_blank" class="right"><img src="assets/img/eye%20(2).png"></a><span><a href="https://github.com/shazilh/ForoApis" target="_blank" class="right"><img src="assets/img/github-logo%20(1).png"></a></span>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">En este proyecto...<i class="material-icons right">close</i></span>
@@ -214,8 +216,8 @@
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Lab Ar<i class="material-icons right"></i></span>
-                        <p><a href="https://shazilh.github.io/Lab-ar">Ver proyecto</a></p>
-                        <p><a href="https://github.com/shazilh/Lab-ar">Ver repositorio</a></p>
+                        <a href="https://shazilh.github.io/Lab-ar" target="_blank" class="right"><img src="assets/img/eye%20(2).png"></a>
+                        <a href="https://github.com/shazilh/Lab-ar" target="_blank" class="right"><img src="assets/img/github-logo%20(1).png"></a>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">En este proyecto...<i class="material-icons right">close</i></span>
@@ -226,23 +228,19 @@
 
         </div>
     </div>
-
-
-
     <!--Inicia código del footer-->
     <footer class="page-footer center">
         <div class="container presentarFooter">
-            <a href="http://www.github.com/shazilh"><img src="/assets/img/github%20(3).png"></a>
-            <a href="http://www.linkedin.com/in/ShazilT"><img src="/assets/img/linkedin-logo%20(1).png"></a>
-            <a href="https://twitter.com/Shazil_T"><img src="/assets/img/twitter.png"></a>
+            <a href="http://www.github.com/shazilh" target="_blank"><img src="/assets/img/github%20(3).png"></a>
+            <a href="http://www.linkedin.com/in/ShazilT" target="_blank"><img src="/assets/img/linkedin-logo%20(1).png"></a>
+            <a href="https://twitter.com/Shazil_T" target="_blank"><img src="/assets/img/twitter.png"></a>
             <a href="tel:55 3196 2794"><img src="/assets/img/cellphone.png"></a>
             <a href="mailto:shazil.tovar@gmail.com"><img src="/assets/img/email%20(1).png"></a>
-
-        </div>
-        <div class="footer-copyright" id="contactoEn">
-            <div class="container center">
-                <div> <a class="grey-text text-lighten-4 logo" href="index.html">Shazil</a></div>
-                Handmade by me © Laboratoria 4a.Generación 2017
+            <div class="footer-copyright" id="contactoEn">
+                <div class="container center">
+                    <div> <a class="grey-text text-lighten-4 logo" href="index.html">Shazil</a></div>
+                    Handmade by me © Laboratoria 4a.Generación 2017
+                </div>
             </div>
         </div>
     </footer>
@@ -251,7 +249,6 @@
     <script src="/js/materialize.min.js"></script>
     <script src="/js/main.js"></script>
     <script src="/js/animacion.js"></script>
-    <script src="typed.js"></script>
     <script type="text/javascript" src="js/particles.js"></script>
     <script type="text/javascript" src="js/particulas.js"></script>
     <script src="/js/typed.js"></script>

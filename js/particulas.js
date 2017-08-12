@@ -34,7 +34,7 @@ particlesJS('particles-js', {
     },
     anim: {
       enable: true,
-      speed: 2 // Velocidad a la que se mueven las aristas
+      speed: 4 // Velocidad a la que se mueven las aristas
     }
   },
   interactivity: {
@@ -54,9 +54,9 @@ particlesJS('particles-js', {
         nb: 4
       },
       onresize: {
-        enable: true,
+        enable: false,
         mode: 'out', // "out" or "bounce"
-        density_auto: false,
+        density_auto: 100,
         density_area: 800 // nb_particles = particles.nb * (canvas width *  canvas height / 1000) / density_area
       }
     }
